@@ -6,7 +6,7 @@ FPS = 30
 
 
 def draw():
-    pass
+    screen.draw.text('HELLO WORLD', color='white', center=(150, 150), fontsize=50)
 
 
 def update(dt):
