@@ -1,12 +1,12 @@
 import pgzrun
 
-WIDTH = 300
-HEIGHT = 300
+WIDTH = 700
+HEIGHT = 700
 FPS = 30
 
 
 def draw():
-    screen.draw.text('HELLO WORLD', color='white', center=(150, 150), fontsize=50)
+    screen.draw.text('HELLO WORLD', color='white', center=(350, 350), fontsize=50)
 
 
 def update(dt):
